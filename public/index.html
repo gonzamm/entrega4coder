@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga Pto Nuevo</title>
+</head>
+<body>
+    <h2>Entrega N°4 de Moure Gonzalo.</h2>
+    <h3>Formulario para agregar nuevo producto</h3>
+    <form action="http://localhost:8080/api/products" method="post">
+        <ul>
+            <li>Titulo: <input type="text" id="titulo" name="titulo"></li>
+            <br>
+            <li>Precio: <input type="text" id="precio" name="precio"></li>
+            <br>
+            <li>Thumbail: <input type="text" id="thumbail" name="thumbail"></li>
+            <br>
+            <button type="submit">Enviar producto</button>
+            
+        </ul>        
+    </form>
+    <p>El id sera agregado automaticamente por el backend</p>
+</body>
+</html>
